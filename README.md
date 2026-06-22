@@ -1,16 +1,42 @@
-## Hi there 👋
+# Hi, I'm Diego Paez 👋
+### Director of AI & MLOps 
 
-<!--
-**DiegoEPaez/DiegoEPaez** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+## 🚀 Featured Projects & Engineering Research
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 📈 [1. Urban Transit Systems Demand Forecasting](https://github.com/DiegoEPaez/transit-ml)
+*An end-to-end machine learning pipeline comparing statistical, tree-based, and deep learning architectures to predict ridership for Mexico City's Cablebús system.*
+* **The Core Tech:** LightGBM, PyTorch (LSTM), Facebook Prophet, Statsmodels (SARIMA), Optuna.
+* **Architectural Strategy:** Implemented isolated, line-specific models to capture unique demographic flows. Developed a **direct multi-model forecasting horizon approach** (separate models per lead day) to explicitly prevent the compounding error propagation typical of recursive time-series setups.
+* **Impact:** Provides stable uncertainty quantification for long-term urban risk management and operational planning.
+
+### 💰 [2. Financial Time-Series Optimization Framework](https://github.com/DiegoEPaez/fin-forecast)
+*statistical analysis and deep learning applied to financial market indicators and forecasting.*
+* **The Core Tech:** Python, Pytorch, Scikit-Learn, Pandas, Advanced Feature Engineering.
+* **Architectural Strategy:** Built a robust validation pipeline specifically tailored for non-stationary financial data, incorporating strict walk-forward cross-validation to eliminate data leakage and optimize feature importance metrics under high-noise conditions.
+
+### 👁️ [3. Real-Time Computer Vision & Motion Analysis](https://github.com/DiegoEPaez/optical-flow)
+*Implementation of optical flow algorithms designed for pixel-level motion estimation across video sequences using the YouTube-8m dataset.*
+* **The Core Tech:** OpenCV, Python, NumPy, Computer Vision Fundamentals.
+* **Architectural Strategy:** Focused on edge-case optimization for real-time video processing, analyzing spatial-temporal variations and handling dense vs. sparse feature tracking tradeoffs efficiently under constrained computing budgets.
+
+### ☕ [4. Low-Level Deep Learning Engineering from Scratch](https://github.com/DiegoEPaez/dl-java)
+*An educational and rigorous implementation of neural network fundamentals written purely in Java without external ML libraries.*
+* **The Core Tech:** Java (Object-Oriented Architecture), Matrix Mathematics.
+* **Architectural Strategy:** Built backpropagation, weight initialization schemes, activation functions, and gradient descent optimization completely from first principles. This repository highlights a deep, foundational understanding of memory allocation, matrix operations, and the core mathematical mechanics behind modern AI frameworks.
+
+---
+
+## 🛠️ Tech Stack & Tooling
+
+* **Languages:** Python, Java, Bash, SQL, LaTeX.
+* **Frameworks & AI:** PyTorch, LightGBM, Optuna, Scikit-Learn, Prophet, OpenCV.
+* **MLOps & Infrastructure:** Poetry, Git, Docker, CI/CD Pipelines.
+* **Specializations:** Time-Series Forecasting, Deep Generative Learning, Distributed Systems Concepts.
+
+---
+
+## 📬 Connect with Me
+
+* **LinkedIn:** [linkedin.com/in/diegopaez](https://linkedin.com/in/your-profile) * **GitHub:** [@DiegoEPaez](https://github.com/DiegoEPaez)
