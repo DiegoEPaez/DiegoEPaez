@@ -5,7 +5,7 @@
 
 ## 🚀 Featured Projects & Engineering Research
 
-### 📈 [1. Urban Transit Systems Demand Forecasting](https://github.com/DiegoEPaez/transit-ml)
+### 📈 [1. Urban Aero Cable Car Transit Demand Forecasting](https://github.com/DiegoEPaez/transit-ml)
 *An end-to-end machine learning pipeline comparing statistical, tree-based, and deep learning architectures to predict ridership for Mexico City's Cablebús system.*
 * **The Core Tech:** LightGBM, PyTorch (LSTM), Facebook Prophet, Statsmodels (SARIMA), Optuna.
 * **Architectural Strategy:** Implemented isolated, line-specific models to capture unique demographic flows. Developed a **direct multi-model forecasting horizon approach** (separate models per lead day) to explicitly prevent the compounding error propagation typical of recursive time-series setups.
@@ -16,7 +16,7 @@
 * **The Core Tech:** Python, Pytorch, Scikit-Learn, Pandas, Advanced Feature Engineering.
 * **Architectural Strategy:** Built a robust validation pipeline specifically tailored for non-stationary financial data, incorporating strict walk-forward cross-validation to eliminate data leakage and optimize feature importance metrics under high-noise conditions.
 
-### 👁️ [3. Real-Time Computer Vision & Motion Analysis](https://github.com/DiegoEPaez/optical-flow)
+### 👁️ [3. Self-supervised Optical Flow](https://github.com/DiegoEPaez/optical-flow)
 *Implementation of optical flow algorithms designed for pixel-level motion estimation across video sequences using the YouTube-8m dataset.*
 * **The Core Tech:** OpenCV, Python, NumPy, Computer Vision Fundamentals.
 * **Architectural Strategy:** Focused on edge-case optimization for real-time video processing, analyzing spatial-temporal variations and handling dense vs. sparse feature tracking tradeoffs efficiently under constrained computing budgets.
@@ -39,4 +39,4 @@
 
 ## 📬 Connect with Me
 
-* **LinkedIn:** [linkedin.com/in/diegopaez](https://linkedin.com/in/your-profile) * **GitHub:** [@DiegoEPaez](https://github.com/DiegoEPaez)
+* **LinkedIn:** [linkedin.com/in/diegopaez](https://www.linkedin.com/in/diego-paez-9653737b/) * **GitHub:** [@DiegoEPaez](https://github.com/DiegoEPaez)
