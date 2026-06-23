@@ -5,7 +5,7 @@
 
 ## 🚀 Featured Projects & Engineering Research
 
-### 📈 [1. Urban Aero Cable Car Transit Demand Forecasting](https://github.com/DiegoEPaez/transit-ml)
+### 📈 [1. Short-Term Ridership Forecasting for Mexico City's Cablebús System](https://github.com/DiegoEPaez/transit-ml)
 *An end-to-end machine learning pipeline comparing statistical, tree-based, and deep learning architectures to predict ridership for Mexico City's Cablebús system.*
 * **The Core Tech:** LightGBM, PyTorch (LSTM), Facebook Prophet, Statsmodels (SARIMA), Optuna.
 * **Architectural Strategy:** Implemented isolated, line-specific models to capture unique demographic flows. Developed a **direct multi-model forecasting horizon approach** (separate models per lead day) to explicitly prevent the compounding error propagation typical of recursive time-series setups.
