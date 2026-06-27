@@ -1,5 +1,4 @@
 # Hi, I'm Diego Paez 👋
-### Director of AI & MLOps 
 
 ---
 
