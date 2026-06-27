@@ -16,10 +16,10 @@
 * **The Core Tech:** Python, Pytorch, Scikit-Learn, Pandas, Advanced Feature Engineering.
 * **Architectural Strategy:** Built a robust validation pipeline specifically tailored for non-stationary financial data, incorporating strict walk-forward cross-validation to eliminate data leakage and optimize feature importance metrics under high-noise conditions.
 
-### 👁️ [3. Self-supervised Optical Flow](https://github.com/DiegoEPaez/optical-flow)
-*Implementation of optical flow algorithms designed for pixel-level motion estimation across video sequences using the YouTube-8m dataset.*
-* **The Core Tech:** OpenCV, Python, NumPy, Computer Vision Fundamentals.
-* **Architectural Strategy:** Focused on edge-case optimization for real-time video processing, analyzing spatial-temporal variations and handling dense vs. sparse feature tracking tradeoffs efficiently under constrained computing budgets.
+### 👁️ [3. Unsupervised Optical Flow Inference Pipeline](https://github.com/DiegoEPaez/optical-flow)
+*An engineering exploration into leveraging massive, unlabeled video datasets to train deep learning architectures for pixel-level motion estimation.*
+* **The Core Tech:** PyTorch/OpenCV, FlowNet Simple, YouTube-8M Dataset, Motion Analysis Fundamentals.
+* **Architectural Strategy:** Developed a custom modification over the **FlowNet Simple** backbone to accelerate convergence and optimize inference metrics. Built a pipeline targeting the complexities of training on raw web video, addressing challenges in frame-rate sampling dynamics (large vs. small displacements) and identifying data-cleansing strategies to isolate noise like scene cuts and text overlays.
 
 ### ☕ [4. Low-Level Deep Learning Engineering from Scratch](https://github.com/DiegoEPaez/dl-java)
 *An educational and rigorous implementation of neural network fundamentals written purely in Java without external ML libraries.*
